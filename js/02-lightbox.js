@@ -28,7 +28,7 @@ function onClick(event) {
     if(event.target.nodeName !== 'IMG'){
         return;
     }
-    openModalSimpleLightbox(event);
+    
 
   
 };
@@ -45,4 +45,6 @@ function openModalSimpleLightbox(event){
             enableKeyboard: true,
         });
         simpleLightbox.open();
+        
 };
+openModalSimpleLightbox(event);
